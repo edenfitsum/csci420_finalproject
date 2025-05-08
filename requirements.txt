@@ -5,5 +5,11 @@ torchaudio==2.7.0
 transformers==4.36.2
 datasets==2.18.0
 accelerate==0.25.0
-sentencepiece
 evaluate==0.4.0
+
+sentencepiece
+
+pandas==2.2.1
+tqdm==4.66.2
+
+importlib-metadata==6.11.0
