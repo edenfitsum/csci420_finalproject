@@ -47,7 +47,7 @@ Install all required Python packages:
 pip install -r requirements.txt
 ```
 
-## **Run the Program**
+## **3. Run the Program**
 
 To train the model and generate the CSV comparison of baseline vs fine-tuned answers:
 ```bash
