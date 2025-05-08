@@ -12,7 +12,7 @@ This project is implemented in **Python 3.9+** and is compatible with **macOS, L
 
 1. Clone the repository:
 ```bash
-https://github.com/edenfitsum/csci420_finalproject.git
+git clone https://github.com/edenfitsum/csci420_finalproject.git
 ```
 
 2. Navigate into the project folder:
