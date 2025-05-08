@@ -1,72 +1,55 @@
 # CS420 Final Project
 
-# **1. Introduction** 
+## **1. Introduction**
 
-# **2. Getting Started**  
+This project fine-tunes the GPT-2 language model on a custom dataset of economics Q&A pairs. The goal is to improve GPT-2's ability to generate answers to important economics definitions. The project compares baseline GPT-2 responses with fine-tuned responses, saving the results in a CSV.
 
-This project is implemented in **Python 3.9+** and is compatible with **macOS, Linux, and Windows**.  
+## **2. Getting Started**
 
-## **2.1 Preparations**  
+This project is implemented in **Python 3.9+** and is compatible with **macOS, Linux, and Windows**.
 
-1. Clone the repository to your workspace:  
-```shell
+### **2.1 Preparations**
+
+1. Clone the repository:
+```bash
 https://github.com/edenfitsum/csci420_finalproject.git
 ```
 
-2. Navigate into the repository:
-
+2. Navigate into the project folder:
+```bash
+cd csci420_finalproject
 ```
-cd cs420_finalproject
-```
 
-3. Set up a virtual environment and activate it:
+3. Set up and activate a virtual environment:
 
-### For macOS/Linux:
-
-```
+#### For macOS/Linux:
+```bash
 python -m venv ./venv/
-```
-```
 source venv/bin/activate
 ```
 
-### For Windows:
-
-1. Install ```virtualenv```:
-```
+#### For Windows:
+```bash
 pip install virtualenv
-```
-
-2. Create a virtual environment:
-```
 python -m virtualenv venv
-```
-
-3. Activate the environment
-```
 venv\Scripts\activate
 ```
 
-The name of your virtual environment should now appear within parentheses just before your commands.
-
-To deactivate the virtual environment, use the command:
-
-```
+Once activated, your terminal prompt will show `(venv)` in front. To deactivate:
+```bash
 deactivate
 ```
 
-## **2.2 Install Packages**
+### **2.2 Install Packages**
 
-Install the required dependencies:
-
-```
+Install all required Python packages:
+```bash
 pip install -r requirements.txt
 ```
 
-## **2.3 Run Program**
+### **2.3 Run the Program**
 
-1. Run ```main.py```
-
-```
+To train the model and generate the CSV comparison of baseline vs fine-tuned answers:
+```bash
 python main.py
 ```
